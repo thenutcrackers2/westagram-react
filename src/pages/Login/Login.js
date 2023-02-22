@@ -1,7 +1,8 @@
 import react from "react";
-import "./Login.css";
+import "./Login.scss";
+import { Link } from "react-router-dom";
 
-const loginWrap = () => {
+const Login = () => {
   return (
     <article>
       <div class="login_wrapper">
@@ -21,9 +22,11 @@ const loginWrap = () => {
             name="id"
             placeholder="비밀번호"
           />
-          <button id="LOGIN_BTN" class="login_btn" type="button" disabled>
-            로그인
-          </button>
+          <Link to="/main">
+            <button id="LOGIN_BTN" class="login_btn" type="button">
+              로그인
+            </button>
+          </Link>
         </form>
         <a class="login_bottom" href="">
           비밀번호를 잊으셨나요?
@@ -33,4 +36,4 @@ const loginWrap = () => {
   );
 };
 
-export default loginWrap;
+export default Login;

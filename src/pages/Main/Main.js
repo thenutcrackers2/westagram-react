@@ -1,7 +1,7 @@
 import react from "react";
-import "./Main.css";
+import "./Main.scss";
 
-const mainWrap = () => {
+const Main = () => {
   return (
     <>
       <nav>
@@ -288,4 +288,4 @@ const mainWrap = () => {
   );
 };
 
-export default mainWrap;
+export default Main;
