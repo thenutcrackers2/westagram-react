@@ -1,6 +1,6 @@
-import react from "react";
-import "./Login.scss";
-import { Link } from "react-router-dom";
+import react from 'react';
+import './Login.scss';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (

@@ -1,5 +1,5 @@
-import react from "react";
-import "./Main.scss";
+import react from 'react';
+import './Main.scss';
 
 const Main = () => {
   return (
@@ -73,7 +73,7 @@ const Main = () => {
               <div class="feed-icon-rignt">
                 <div class="icon-bookmark">
                   <a href="#">
-                    {" "}
+                    {' '}
                     <img
                       src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/bookmark.png"
                       alt=""

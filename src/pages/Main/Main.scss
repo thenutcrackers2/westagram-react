@@ -417,10 +417,10 @@ main {
     }
 
     .side-foot li:after {
-      content: " ・ ";
+      content: ' ・ ';
     }
     .side-foot li:last-child:after {
-      content: "";
+      content: '';
     }
 
     .side-foot a {
@@ -471,7 +471,7 @@ button.repl-hover-three-dot {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Noto Sans",
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Noto Sans',
     san-serif;
   /* color: #262626; */
   list-style: none;
