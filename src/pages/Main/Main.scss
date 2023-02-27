@@ -2,27 +2,27 @@ nav {
   padding: 23px 20px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
 
-  .nav-contents {
+  .navContents {
     width: 1010px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    .nav-logo {
+    .navLogo {
       display: flex;
       align-items: center;
 
-      .logo-img {
+      .logoImg {
         width: 24px;
         height: 24px;
       }
 
-      .logo-text {
+      .logoText {
         height: 29px;
         margin-top: 5px;
       }
-      .vertical-line {
+      .verticalLine {
         background-color: #262626;
         height: 28px;
         margin: 0 16px;
@@ -30,7 +30,7 @@ nav {
       }
     }
 
-    .nav-search {
+    .navSearch {
       width: 215px;
       border: solid 1px #dbdbdb;
       border-radius: 3px;
@@ -40,16 +40,16 @@ nav {
       padding: 8px 10px 8px 26px;
     }
 
-    .nav-link {
+    .navLink {
       float: right;
       display: flex;
       align-items: center;
 
-      .nav-link img {
+      .navLink img {
         height: 24px;
       }
 
-      .nav-link img:not(:first-child) {
+      .navLink img:not(:first-child) {
         margin-left: 30px;
       }
     }
@@ -75,7 +75,7 @@ main {
       border-radius: 3px;
       background-color: #fff;
 
-      .feed-user-id-box {
+      .feedUserIdBox {
         /* overflow: hidden; */
         height: 60px;
         display: flex;
@@ -84,27 +84,27 @@ main {
         padding: 16px;
         border-bottom: 1px solid #efefef;
 
-        .feed-user-pic-wrap {
+        .feedUserPicWrap {
           width: 34px;
           height: 18px;
           position: relative;
         }
 
-        .feed-user-pic-wrap img {
+        .feedUserPicWrap img {
           width: 100%;
           border-radius: 120%;
           position: relative;
           top: 0px;
         }
 
-        .feed-user-id {
+        .feedUserId {
           margin-left: 15px;
           position: relative;
           top: 5px;
           font-size: 14px;
           font-weight: 600;
         }
-        .feed-three-dot-wrap {
+        .feedThreeDotWrap {
           display: flex;
           justify-content: flex-end;
           align-items: center;
@@ -112,14 +112,14 @@ main {
           position: relative;
           top: 2px;
         }
-        .three-dot-menu img {
+        .threeDotMent img {
           width: 25px;
           height: 25zpx;
           /* background-color: yellow; */
         }
       }
 
-      .feed-img-wrap {
+      .feedImgWrap {
         display: block;
         overflow: hidden;
         width: 100%;
@@ -128,56 +128,56 @@ main {
         background-color: yellow;
         border-bottom: 1px solid #efefef;
       }
-      .feed-img-wrap img {
+      .feedImgWrap img {
         width: 100%;
         max-height: inherit;
         display: block;
         /* display: inline; */
       }
 
-      .feed-icons-wrap {
+      .feedIconsWrap {
         height: 56px;
         padding: 16px 0 16px 16px;
         display: flex;
         justify-content: space-between;
 
-        .feed-icons-left {
+        .feedIconsLeft {
           display: flex;
           justify-content: flex-start;
         }
 
-        .icon-bookmark > img {
+        .iconBookmark > img {
           margin-right: 0px;
         }
       }
 
-      .feed-repl-wrap {
+      .feedReplWrap {
         border-bottom: 1px solid #efefef;
         padding: 0px 16px 5px 16px;
         font-size: 14px;
         letter-spacing: -0.3px;
 
-        .feed-like-text-wrap {
+        .feedLikeTextWrap {
           margin-bottom: 8px;
         }
-        .feed-like-text-wrap button {
+        .feedLikeTextWrap button {
           border: none;
           font-size: 14px;
           font-weight: 600;
         }
 
-        .feed-repls > span {
+        .feedRepls > span {
           display: inline-block;
           width: 100%;
           padding-bottom: 5px;
         }
 
-        .others-repl {
+        .othersRepl {
           display: flex;
           position: relative;
         }
 
-        .others-repl-icons-wrap {
+        .othersRepl-icons-wrap {
           display: flex;
           flex-direction: column;
           justify-content: flex-end;
@@ -192,12 +192,12 @@ main {
           }
         }
 
-        .feed-time {
+        .feedTime {
           font-size: 10px;
           color: #c7c7c7;
         }
 
-        .heart-btn {
+        .heartBtn {
           display: inline-block;
           position: relative;
           top: 4px;
@@ -208,24 +208,24 @@ main {
           border: none;
         }
 
-        .heart-btn img {
+        .heartBtn img {
           width: 100%;
         }
       }
-      .feed-repl-wrap span {
+      .feedReplWrap span {
         padding: 2px 0;
       }
-      .feed-repl-wrap span a {
+      .feedReplWrap span a {
         font-weight: normal;
         font-size: 13px;
       }
 
-      .feed-repl-wrap a.user-id {
+      .feedReplWrap a.userId {
         margin-right: 5px;
         font-weight: bold;
       }
 
-      .feed-repl-wrap button.all-repl {
+      .feedReplWrap button.allRepl {
         border: none;
         display: inline-block;
         font-weight: 600;
@@ -234,19 +234,19 @@ main {
         color: #c7c7c7;
       }
 
-      .send-repl-wrap {
+      .sendReplWrap {
         height: 56px;
         padding: 16px;
         display: flex;
         justify-content: space-between;
 
-        .submit-wrap {
+        .submitWrap {
           position: absolute;
           right: -44px;
           bottom: 4px;
         }
 
-        .submit-wrap button {
+        .submitWrap button {
           color: #003569;
           border: none;
           font-weight: 600;
@@ -255,11 +255,11 @@ main {
           cursor: pointer;
         }
       }
-      .send-repl-wrap .form-div {
+      .sendReplWrap .formDiv {
         width: 92%;
         position: relative;
       }
-      .send-repl-wrap input {
+      .sendReplWrap input {
         border: none;
         width: 100%;
         font-size: 14px;
@@ -267,7 +267,7 @@ main {
         top: 3px;
       }
 
-      .send-repl-wrap input::placeholder {
+      .sendReplWrap input::placeholder {
         color: #c7c7c7;
         font-size: 14px;
         position: relative;
@@ -276,24 +276,24 @@ main {
     }
   }
 
-  .main-right {
-    .my-profile-wrap {
+  .mainRight {
+    .myProfileWrap {
       display: flex;
       flex-direction: row;
       z-index: -1;
 
-      .my-pic-wrap {
+      .myPicWrap {
         width: 50px;
         height: 50px;
       }
 
-      .my-pic-wrap img {
+      .myPicWrap img {
         border-radius: 90px;
         width: 100%;
         height: 49px;
       }
 
-      .my-pic-text {
+      .myPicText {
         margin-left: 14px;
         font-weight: bold;
         display: flex;
@@ -302,32 +302,32 @@ main {
         position: relative;
       }
 
-      .my-pic-text div:first-child {
+      .myPicText div:first-child {
         font-weight: 500;
         position: relative;
         top: 8px;
       }
-      .my-pic-text div:last-child {
+      .myPicText div:last-child {
         font-weight: normal;
         font-size: small;
       }
     }
 
-    .side-box {
+    .sideBox {
       margin-top: 12px;
       height: 223px;
       border: 1px solid #dbdbdb;
       border-radius: 3px;
       background-color: #fff;
 
-      .side-box:last-child {
+      .sideBox:last-child {
         height: 194px;
       }
 
-      .side-title {
+      .sideTitle {
         padding: 4px 16px;
       }
-      .side-title {
+      .sideTitle {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
@@ -335,12 +335,12 @@ main {
         position: relative;
       }
 
-      .side-title div:first-child {
+      .sideTitle div:first-child {
         color: #999;
         font-weight: bold;
       }
 
-      .side-title div:last-child {
+      .sideTitle div:last-child {
         color: #262626;
         font-size: small;
         font-weight: 400;
@@ -348,27 +348,27 @@ main {
         top: -2px;
       }
 
-      .side-list-wrap {
+      .sideListWrap {
         height: 173px;
 
-        .side-list {
+        .sideList {
           overflow: scroll;
           /* background-color: rgba(55, 55, 55, .5); */
           height: 100%;
           padding-left: 16px;
           margin-top: 8px;
 
-          .user-pic-wrap {
+          .userPicWrap {
             width: 34px;
             height: 34px;
           }
 
-          .user-profile-wrap img {
+          .userProfileWrap img {
             border-radius: 25px;
             width: 130%;
           }
 
-          .user-profile-text {
+          .userProfileText {
             margin-left: 14px;
             display: flex;
             flex-direction: column;
@@ -378,19 +378,19 @@ main {
             width: 100%;
           }
 
-          .user-profile-text div:first-child {
+          .userProfileText div:first-child {
             font-weight: 500;
             font-size: 15px;
             position: relative;
             top: -1px;
           }
-          .user-profile-text div:last-child {
+          .userProfileText div:last-child {
             font-weight: normal;
             font-size: 12px;
             color: #999;
           }
 
-          .user-profile-wrap {
+          .userProfileWrap {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -401,38 +401,38 @@ main {
       }
     }
 
-    .side-foot {
+    .sideFoot {
       margin-top: 12px;
       color: #c7c7c7;
       font-size: 12px;
     }
 
-    .side-foot ul {
+    .sideFoot ul {
       margin-right: 6px;
       margin-bottom: 12px;
     }
-    .side-foot li {
+    .sideFoot li {
       display: inline;
       line-height: 1.5em;
     }
 
-    .side-foot li:after {
+    .sideFoot li:after {
       content: ' ・ ';
     }
-    .side-foot li:last-child:after {
+    .sideFoot li:last-child:after {
       content: '';
     }
 
-    .side-foot a {
+    .sideFoot a {
       color: #c7c7c7;
     }
 
-    .follow-btn {
+    .followBtn {
       padding-right: 16px;
       float: right;
     }
 
-    .follow-btn button {
+    .followBtn button {
       color: #3897f0;
       /* width: 100%; */
       border: none;
@@ -443,7 +443,7 @@ main {
 }
 /* 피드 아이콘 */
 
-.feed-icons-wrap img {
+.feedIconsWrap img {
   width: 24px;
   margin-right: 16px;
 }
@@ -482,7 +482,7 @@ a {
   color: #262626;
 }
 
-.form-div,
+.formDiv,
 input,
 button {
   box-shadow: none;

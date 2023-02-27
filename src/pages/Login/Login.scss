@@ -16,7 +16,7 @@ body {
     background-color: white;
     border: 1px solid #dbdbdb;
 
-    .login_logo {
+    .loginLogo {
       margin: 30px 0 30px 0;
       color: #262626;
       font-family: 'Lobster', cursive;
@@ -24,13 +24,13 @@ body {
       font-weight: 100px;
     }
 
-    .login_form {
+    .loginForm {
       display: flex;
       flex-direction: column;
       width: 280px;
       margin-top: 10px;
 
-      .login_text {
+      .loginText {
         width: 100%;
         height: 40px;
         margin: 3px 0 3px 0;
@@ -40,18 +40,31 @@ body {
         border-radius: 3px;
       }
 
-      .login_text:focus {
+      .loginText:focus {
         outline: 1px solid #a8a8a8;
       }
 
-      .login_text::placeholder {
+      .loginText::placeholder {
         color: #8e8e8e;
       }
 
-      .login_text::value {
+      .loginText::value {
         color: #262626;
       }
-      .login_btn {
+      .activeBtn {
+        width: 100%;
+        height: 33px;
+        margin: 10px 0 5px 0;
+        color: white;
+        background-color: blue;
+        border-radius: 5px;
+        border-style: none;
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      .unactiveBtn {
         width: 100%;
         height: 33px;
         margin: 10px 0 5px 0;
@@ -61,14 +74,15 @@ body {
         border-style: none;
         font-size: 15px;
         font-weight: bold;
+        opacity: 50%;
         cursor: pointer;
       }
     }
+  }
 
-    .login_bottom {
-      margin-top: 65px;
-      color: #01376a;
-      font-size: 13px;
-    }
+  .loginBottom {
+    margin-top: 65px;
+    color: #01376a;
+    font-size: 13px;
   }
 }
